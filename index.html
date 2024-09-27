@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="It Is a Todo List Application Where You Can Add Your Important Items With Description And Can Be Removed when It Is Completed As Soon AS Possible">
+    <link rel="stylesheet" href="main.css">
+    <title>Todo List Application</title>
+</head>
+<body>
+    <h1>
+        Todo List Application 
+    </h1>
+    <div class="container">
+        <div class="box">
+            <label for="todoitem">Enter The Todo Item</label>        
+            <input type="text" id="todoitem" name="todoitem" placeholder="Enter The Todos" required>
+            <label for="tododes">Enter The Todo Description</label>        
+            <input type="text" id="tododes" name="tododes" placeholder="Enter The Todos Description" required>
+            <button id="btn" onclick="fun()">Add</button>
+            <div id="output">
+
+            </div>
+        </div>       
+    </div>
+   <script src="script.js"></script>
+</body>
+</html>
