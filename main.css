@@ -56,7 +56,7 @@ body h1 {
     margin: 20px 0px;
     gap: 10px;
    
-    color: rgb(10, 8, 8);
+    color: rgb(9, 8, 10);
     font-size: 20px;
     line-height: 2em;
     
@@ -80,5 +80,5 @@ body h1 {
     flex-direction: column;
     text-align: left;
     height: 130px;
-
+    border-bottom: 5px solid rgb(255, 255, 255);
 }
